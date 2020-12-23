@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        label{
+            width:240px;
+            display: inline-block;
+        }
+        textarea{
+            width:120px;
+            height:120px;
+        }
+    </style>
+</head>
+<body style="background-color:lightblue;">
+    <center>
+    <form  style="font-size: x-large; color: red;">
+        
+      <marquee style="color: red;">Field marked * are mandatory!</marquee>
+    <label>First name*:</label> <input type="text" name="text" required><br>
+    <label>Last name*:</label> <input type="text" name="text" required><br>
+    <label>DOB*:</label><input type="date" name="date"><br>
+    <label>Gender*:  </label><input type="radio" name="gender" required>Male
+                          <input type="radio" name="gender">Female<br>
+    <label>Email*:</label><input type="email" name="email" required><br>
+    <label>Languages*:</label><input type="checkbox" name="lang">kannada
+                                <input type="checkbox" name="lang">english
+                                <input type="checkbox" name="lang">hindi<br>
+    <label>address*:</label><textarea></textarea></br>
+    <label>State*:</label>
+      <select>
+          <option>karnataka</option>
+          <option>kerala</option>
+      </select><br><br>
+      <input type="submit">
+      <input type="reset">
+
+    </form>
+    </center>
+</body>
+</html>
